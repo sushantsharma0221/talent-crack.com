@@ -1,0 +1,335 @@
+:root {
+  --btn-color: #233d7a;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", "Roboto", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+nav {
+  box-shadow: 5px 5px 12px rgba(234, 234, 234, 0.671);
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  background-color: rgb(79, 103, 125);
+  border: 1px solid rgb(192, 192, 192);
+  color: white;
+  cursor: pointer;
+  padding: 15px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all ease-in-out 0.2s;
+}
+
+#myBtn:hover {
+  background-color: rgb(31, 77, 139);
+}
+.site-logo {
+  cursor: pointer;
+}
+.social-icons li a {
+  text-decoration: none;
+  color: white;
+}
+.social-icons {
+  background-color: #242424;
+}
+.social-icons li {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  background-color: rgb(76, 76, 76);
+  padding: 8px 20px;
+  --webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.facebook:hover {
+  background-color: rgb(47, 81, 205);
+}
+.insta:hover {
+  background-color: rgb(38, 116, 189);
+}
+.linkedin:hover {
+  background-color: rgb(28, 119, 199);
+}
+.youtube:hover {
+  background-color: rgb(230, 48, 81);
+}
+.info {
+  color: white;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.registerBtn a,
+.loginBtn a {
+  text-decoration: none;
+  color: black;
+}
+.registerBtn:hover,
+.loginBtn:hover {
+  transition: all ease-in-out 0.3s;
+  color: rgb(67, 122, 159);
+}
+.jobPostBtn a {
+  text-decoration: none;
+  color: white;
+}
+.jobPostBtn {
+  padding: 12px 28px;
+  background-color: var(--btn-color);
+  color: white !important;
+  transition: all ease-in-out 0.3s;
+}
+.searchBtn a {
+  text-decoration: none;
+  color: white;
+}
+.jobPostBtn:hover,
+.searchBtn:hover {
+  color: white;
+  background-color: rgb(63, 111, 143);
+}
+.section-1 {
+  background-image: url("./Images/10010.jpg");
+  background-size: cover;
+}
+input,
+select {
+  background-color: #1a2a4b;
+  color: white;
+  border: 1px solid #243e63;
+  padding: 10px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+input::placeholder {
+  color: white;
+}
+.searchBtn {
+  background-color: var(--btn-color);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.uploadBtn {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 20px;
+  height: 3rem;
+}
+.uploadBtn a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.image2 {
+  width: 3rem;
+  height: 3rem;
+}
+.content {
+  margin-top: 120px;
+  margin-left: 150px;
+}
+hr {
+  margin-top: 150px;
+}
+.section-2 {
+  padding: 20px 50px;
+}
+.section-2-btn {
+  padding: 6px 20px;
+  border: none;
+  background-color: var(--btn-color);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+.section-2 p {
+  color: rgba(97, 97, 97, 0.785);
+}
+
+.section-2-inner {
+  padding: 20px;
+}
+.section-2-inner p {
+  font-size: 0.8rem;
+}
+.section-2 a {
+  text-decoration: none;
+  color: black;
+}
+.intecreus-img {
+  padding: 4px;
+  margin-top: 12px;
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 2px solid rgb(49, 83, 137);
+  border-radius: 50%;
+}
+.job-domain {
+  border: 1px solid rgba(190, 190, 190, 0.598);
+  border-radius: 10px;
+  padding: 12px;
+  height: 32rem;
+}
+.line {
+  margin-top: 12px;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(191, 191, 191, 0.687);
+}
+.section-2-job-2 {
+  background-image: url(./Images/10011.png);
+  background-size: cover;
+  height: 15rem;
+  border-radius: 8px;
+  padding: 20px;
+}
+.fa-heart {
+  transform: translateX(170px);
+}
+.section-3 {
+  margin-top: 150px;
+}
+.section-3-box {
+  padding: 30px;
+  height: 18rem;
+}
+.girl {
+  background-image: url(./Images/10012.png);
+  background-size: cover;
+}
+.boy {
+  background-image: url(./Images/10013.png);
+  background-size: cover;
+}
+.section-3-btn {
+  padding: 9px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+.section-3 a {
+  text-decoration: none;
+  color: black;
+}
+.section-4 a {
+  text-decoration: none;
+  color: black;
+}
+.section-4 h6 {
+  font-size: 1.1rem;
+}
+
+.flippedLine {
+  width: 26px;
+  background-color: rgb(35, 35, 35);
+  height: 1.5px;
+  transform: rotate(90deg);
+}
+.mybox {
+  padding: 20px;
+  height: 6.6rem;
+  width: 17rem;
+  background-color: #f9f9f9;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+.mybox:nth-child(2n + 0) {
+  border-bottom: 2px solid rgb(49, 165, 115);
+}
+.mybox:nth-child(2n + 1) {
+  border-bottom: 2px solid rgb(193, 26, 65);
+}
+
+.mybox p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.mybox:hover {
+  background-color: white;
+  box-shadow: 5px 5px 12px rgba(154, 154, 154, 0.37),
+    -5px -5px 12px rgba(221, 221, 221, 0.37);
+}
+.section-5-underline {
+  height: 2.5px;
+  background-color: black;
+  width: 6rem;
+}
+.thread-img {
+  background-image: url(./Images/10014.png);
+  background-size: 100%;
+  height: 20rem;
+}
+.thread-img p {
+  color: gray;
+}
+.mybox2 {
+  padding: 20px;
+  height: 11rem;
+  width: 16rem;
+  background-color: #f9f9f997;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+.looking-for-resources {
+  letter-spacing: 1px;
+}
+footer {
+  background-image: url(./Images/10015.jpg),
+    linear-gradient(to right, #032948, rgba(42, 42, 42, 0.9));
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 100px;
+}
+footer li {
+  list-style-type: none;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.footer-input {
+  background-color: #223d52;
+  border: 1px solid rgba(194, 194, 194, 0.655);
+  border-radius: 4px;
+}
+.footer-input::placeholder {
+  color: rgb(175, 175, 175);
+}
+footer i {
+  background-color: #1b3649;
+  font-size: 1.4rem;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.homepage {
+  text-decoration: none;
+  color: #315d7d;
+  text-decoration: underline;
+}
+.homepage:hover {
+  text-decoration: none;
+  color: #315d7d;
+}
