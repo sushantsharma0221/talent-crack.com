@@ -168,7 +168,10 @@ hr {
 .section-2 p {
   color: rgba(97, 97, 97, 0.785);
 }
-
+.section-2-cont {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 6px;
+}
 .section-2-inner {
   padding: 20px;
 }
@@ -205,6 +208,14 @@ hr {
   height: 15rem;
   border-radius: 8px;
   padding: 20px;
+}
+.applybtn {
+  color: gray;
+  background-color: white;
+  padding: 4px 20px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
 .fa-heart {
   transform: translateX(170px);
